@@ -9,4 +9,4 @@ client.on('message', message => {
 	console.log(message.content);
 });
 
-client.login('MTA5MDE1NDY3MTYwOTQ4MzI4NQ.GGoMmA.83740rcw_N-3hv6SyDMHaQwq34XDZGpsDwlHyQ');
+client.login('./config.json');
